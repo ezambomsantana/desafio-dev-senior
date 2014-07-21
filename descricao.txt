@@ -1,5 +1,7 @@
 Descrição da solução
 
+MapLinkTestDotNet - C#
+
 Implementei um componente que faz os passos pedidos pelo problema. Na classe MapLinkRouteImpl, é chamado primeiro o serviço
 para a geoposicionar os pontos passados como entrada do componente, isso é feito pela classe AddressServiceImpl.
 
@@ -7,3 +9,10 @@ Depois, na classe RouteServiceImpl é feito, a partir dos pontos geoposicionados,
 parâmetro.
 
 Além disso, a classe Program é um Main simples que faz alguma chamadas para o componente de Roteirização para teste.
+
+
+
+
+MapJava - Java
+
+A ideia é basicamente a mesma da solução implementada em DotNet, ela está um pouco mais simples.
