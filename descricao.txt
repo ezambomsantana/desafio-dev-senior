@@ -1,0 +1,9 @@
+Descrição da solução
+
+Implementei um componente que faz os passos pedidos pelo problema. Na classe MapLinkRouteImpl, é chamado primeiro o serviço
+para a geoposicionar os pontos passados como entrada do componente, isso é feito pela classe AddressServiceImpl.
+
+Depois, na classe RouteServiceImpl é feito, a partir dos pontos geoposicionados, a roteirização com os pontos passados como
+parâmetro.
+
+Além disso, a classe Program é um Main simples que faz alguma chamadas para o componente de Roteirização para teste.
